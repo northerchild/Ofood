@@ -175,6 +175,13 @@ header{
 /*Fin Sección principal*/
 
 /*Sección galeria*/
+.section-features .long-copy{
+	margin-bottom: 30px;
+}
+
+.section-meals{
+	padding: 0;
+}
 
 .meals-showcase{
 	list-style: none;
@@ -190,9 +197,20 @@ header{
 .meal-photo{
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
 .meal-photo img{
 	width: 100%;
+	margin: 0;
+	height: auto;
+	transition: all .6s ease-in-out;
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+.meal-photo img:hover{
+	transform: scale(1.3);
+	filter: grayscale(10%);
 }
 /*Fin Sección galeria*/
