@@ -355,3 +355,66 @@ cite img{
 	vertical-align: middle;
 }
 /*Fin Testimoniales*/
+
+/*Cards precio*/
+
+.section-plans{
+	background-color: #f4f4f4;
+}
+
+.plan-box{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	box-shadow: 0 2px 2px #efefef;
+	transition: all .5s ease-in-out;
+}
+
+.plan-box:hover{
+	transform: scale(1.1);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.plan-box div{
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child{
+	background-color: #fcfcfc;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px; 
+}
+
+.plan-box div:last-child{
+	text-align: center;
+}
+
+.plan-price{
+	font-size: 3em;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #e67e22;
+}
+
+.plan-price span{
+	font-size: 0.3em;
+	font-weight: 300;
+}
+
+.plan-price-meal{
+	font-size: 0.8em;
+}
+
+.plan-box ul {
+	list-style: none;
+}
+
+.plan-box ul li{
+	padding: 5px 0;
+}
+
+
+/*Fin Cards precio*/
