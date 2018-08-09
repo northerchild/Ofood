@@ -446,3 +446,71 @@ input[type = checkbox]{
 *:focus{outline: none;}
 
 /*Fin Formulario*/
+
+/*Footer*/
+footer{
+	background-color: #333;
+	padding: 30px;
+}
+
+.footer-nav{
+	list-style: none;
+	float: left;
+}
+
+.social-links{
+	list-style: none;
+	float: right;
+}
+
+.footer-nav li,.social-links li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer-nav li:last-child,.social-links li:last-child{
+	margin-right:0;
+}
+
+.footer-nav li a:link,.footer-nav li a:visited,
+.social-links li a:link,.social-links li a:visited{
+	text-decoration: none;
+	border:0;
+	color: #888;
+}
+.footer-nav li a:hover,.footer-nav li a:active{
+	color: #fff;
+}
+
+.ion-social-facebook,.ion-social-twitter,.ion-social-googleplus,.ion-social-instagram {
+	transition: all 0.5s ease;
+}
+
+.social-links li a:link,.social-links li a:visited{
+	font-size: 1.5em;
+
+}
+
+.ion-social-facebook:hover{
+	color: #3b5998;
+	font-size: 1.6em;
+}
+.ion-social-twitter:hover{
+	color: #00aced;
+	font-size: 1.6em;
+}
+.ion-social-googleplus:hover{
+	color: #dd4b39;
+	font-size: 1.6em;
+}
+.ion-social-instagram:hover{
+	color: #517fa4;
+	font-size: 1.6em;
+}
+footer p{
+	color: #888;
+	text-align: center;
+	font-size: 0.9em;
+	margin-top: 15px;
+}
+/*Fin Footer*/
