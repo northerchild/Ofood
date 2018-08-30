@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-html{
+html,body{
 	background-color: #fff;
 	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
@@ -213,7 +213,8 @@ header{
 }
 
 .meals-showcase li{
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	float: left;
 	width: 25%;
 }
