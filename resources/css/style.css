@@ -153,9 +153,19 @@ header{
 	margin-top: 20px;
 }
 
+
+.dark-logo{
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin-top: 5px 0;
+}
+
 .main-nav {
 	float: right;
 	list-style: none;
+	margin-top: 55px;
 }
 
 .main-nav li{
@@ -177,6 +187,34 @@ header{
 .main-nav li a:hover,.main-nav li a:active{
 	border-bottom: 2px solid #e67e22;
 }
+
+/*Sticky navigation*/
+.sticky{
+	position: fixed;
+	padding: 10px 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255,255,255, 0.9);
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .main-nav li a:link,.sticky .main-nav li a:visited{
+	padding: 16px 0;
+	color: #555;
+
+}
+
+.sticky .dark-logo{display: block;}
+.sticky .logo{display: none;}
+
+.sticky .main-nav {
+	margin-top:-25px;
+}
+
+/*End Sticky navigation*/
+
 /*Fin Header*/
 
 /*Sección principal*/
